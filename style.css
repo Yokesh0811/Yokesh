@@ -1,0 +1,441 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Forum&family=Inconsolata&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background: #0A192F;
+}
+
+.pageContainer {
+    max-width: 1600px;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.pages {
+    width: 100%;
+    height: 100vh;
+    background: #0A192F;
+}
+
+.circlesPage {
+    margin: auto;
+    width: 1200px;
+    height: 1200px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -100px;
+    bottom: 0;
+    left: 35%;
+    position: absolute;
+    position: fixed;
+}
+
+.circle {
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    background-color: rgba(255, 255, 255, 0.03);
+    border-radius: 50%;
+}
+
+.circle2 {
+    width: 80%;
+    height: 80%;
+}
+
+.circle3 {
+    width: 70%;
+    height: 70%;
+}
+
+.circle4 {
+    width: 60%;
+    height: 60%;
+}
+
+.circle5 {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.moooon {
+    width: 100%;
+    z-index: 1000;
+}
+
+@media(max-width : 751px) {
+    .circlesPage {
+        width: 100vw;
+        height: 100vw;
+    }
+}
+
+@media(max-width : 551px) {
+    .circlesPage {
+        left: 15%;
+        top: -60px;
+        bottom: auto;
+    }
+}
+
+.page1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.p1content-container {
+    min-width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    font-family: 'Forum', cursive;
+    color: #CBD5F5;
+    letter-spacing: 5px;
+
+}
+
+.p1content {
+    width: 100%;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.p1clouds {
+    width: 50%;
+    height: 100vh;
+}
+
+.intro1 {
+    font-weight: 400;
+    overflow: hidden;
+}
+
+.intro2 {
+    letter-spacing: 2px;
+    overflow: hidden;
+    font-size: 30px;
+}
+
+.designer {
+    font-family: 'Dancing Script', cursive;
+}
+
+.developer {
+    font-family: 'Inconsolata', monospace;
+    letter-spacing: 0px;
+}
+
+.introLine {
+    width: 240px;
+    height: 20px;
+    display: grid;
+    place-items: center;
+    margin-left: 50px;
+}
+
+.line {
+    background: linear-gradient(90deg, #8360C3 0%, #64ffda 100%);
+    width: 120px;
+    height: 3px;
+    border-radius: 150px;
+}
+
+@media(max-width : 851px) {
+    .p1content {
+        height: 300px;
+    }
+
+    .introLine {
+        margin-left: -15px;
+    }
+}
+
+@media(max-width : 551px) {
+    .p1content-container {
+        min-width: 100%;
+        position: relative;
+    }
+
+    .p1content {
+        position: absolute;
+        bottom: 20px;
+    }
+}
+
+.page2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.page2wrapper {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+}
+
+.aboutmeContainer {
+    width: 100%;
+    height: 5px;
+    background: linear-gradient(90deg, #8360C3 0%, #64ffda 100%);
+    color: #CBD5F5;
+    font-family: 'Forum', cursive;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 2px;
+    position: relative;
+
+}
+
+.aboutmeContainer h1:after {
+    content: " ";
+    position: absolute;
+    top: -35px;
+    left: -20px;
+    background: #1023411a;
+    box-shadow: 10px 10px 35px -8px rgba(0, 0, 0, 0.75);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 2px;
+}
+
+.aboutmeContainer h1 {
+    margin-top: 100px;
+    position: relative;
+}
+
+.aboutmeContainer p {
+    font-size: 120px;
+    font-family: 'Dancing Script', cursive;
+    color: #64ffda;
+    margin-left: -20px;
+}
+
+.aboutmeContentbox {
+    position: absolute;
+    bottom: 20px;
+    width: 60%;
+    height: 400px;
+    font-size: 20px;
+    color: #CBD5F5;
+    font-family: 'Inconsolata', monospace;
+    padding: 5px;
+    margin-bottom: 30px;
+}
+
+.aboutmeContentbox p {
+    margin-top: 15px;
+}
+
+.welcomeHead {
+    margin-bottom: 50px;
+}
+
+
+
+
+@media(max-width : 851px) {
+    .aboutmeContentbox {
+        width: 100%;
+    }
+}
+
+@media(max-width : 551px) {
+    .aboutmeContainer {
+        font-size: 35px;
+    }
+
+    .aboutmeContainer p {
+        font-size: 90px;
+        margin: 25px 0px 0px -45px;
+    }
+
+    .welcomeHead {
+        margin-top: -130px;
+    }
+
+}
+
+@media(min-height : 1251px) {
+    .page2 {
+        height: 70vh;
+    }
+
+    .aboutmeContentbox {
+        font-size: 30px;
+        margin-bottom: 180px;
+    }
+}
+
+@media(min-height : 1001px) {
+    .page2 {
+        height: 100vh;
+    }
+
+    .aboutmeContentbox {
+        font-size: 30px;
+        margin-bottom: 250px;
+    }
+}
+
+@media(max-height : 851px) and (max-width : 551px) {
+    .page2 {
+        height: 110vh;
+    }
+}
+
+@media(max-height : 751px) and (max-width : 551px) {
+    .page2 {
+        height: 120vh;
+    }
+}
+
+@media(max-height : 681px) and (max-width : 551px) {
+    .page2 {
+        height: 130vh;
+    }
+}
+
+.page3 {
+    position: relative;
+}
+
+.page3wrapper {
+    width: 100%;
+    height: 100vh;
+}
+
+.projecthead {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    color: #CBD5F5;
+    font-family: 'Forum', cursive;
+    font-size: 40px;
+    overflow: hidden;
+    position: relative;
+    margin-top: 10px;
+}
+
+
+.projectletters {
+    margin-left: 2px;
+    transform: translateY(100%);
+}
+
+.projectletters:after {
+    content: " ";
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, #64ffda 0%, #64ffda 100%);
+}
+
+.skillsBox {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #CBD5F5;
+    text-align: center;
+}
+
+.skillscontent1 {
+    width: 50%;
+    height: 400px;
+    font-family: 'Inconsolata', monospace;
+    padding: 5px;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+
+}
+
+.skillscontent1 li {
+    list-style: none;
+}
+
+.skillsContent {
+    min-width: 50%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Inconsolata', monospace;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+.skillsContent span {
+    background: -webkit-linear-gradient(90deg, #8360C3 0%, #64ffda 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@media(max-width : 551px) {
+    .projecthead {
+        font-size: 30px;
+        margin-top: 60px;
+        margin-bottom: 50px;
+    }
+
+    .projectletters:after {
+        bottom: 30px;
+    }
+}
+
+@media(max-width : 951px) {
+    .skillsBox {
+        flex-direction: column;
+    }
+
+    .skillscontent1 {
+        width: 100%;
+        height: 50%;
+    }
+}
+
+@media(max-height : 781px) and (max-width : 551px) {
+    .skillscontent1 {
+        margin-top: 100px;
+    }
+
+    .skillscontent1 h1 {
+        margin-bottom: 20px;
+    }
+
+    .skillscontent1 h2 {
+        margin: 20px 0 20px 0;
+    }
+}
