@@ -82,6 +82,8 @@ html {
 
 @media(max-width : 551px) {
     .circlesPage {
+        width: 120vw;
+        height: 120vw;
         left: 15%;
         top: -60px;
         bottom: auto;
@@ -245,6 +247,7 @@ html {
     font-family: 'Inconsolata', monospace;
     padding: 5px;
     margin-bottom: 30px;
+    margin-top: 20px;
 }
 
 .aboutmeContentbox p {
