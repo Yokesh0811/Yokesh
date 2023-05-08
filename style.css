@@ -181,6 +181,12 @@ html {
     }
 }
 
+@media(max-width : 551px) and (min-height: 700px) {
+    .p1content {
+        bottom: 100px;
+    }
+}
+
 .page2 {
     display: flex;
     justify-content: center;
