@@ -245,15 +245,13 @@ html {
 
 .aboutmeContentbox {
     position: absolute;
-    bottom: 20px;
+    bottom: 15%;
     width: 60%;
     height: 400px;
     font-size: 20px;
     color: #CBD5F5;
     font-family: 'Inconsolata', monospace;
     padding: 5px;
-    margin-bottom: 30px;
-    margin-top: 20px;
 }
 
 .aboutmeContentbox p {
