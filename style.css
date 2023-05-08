@@ -329,6 +329,12 @@ html {
     }
 }
 
+@media(max-width : 1551px) and (max-height: 751px) {
+    .welcomeHead {
+        margin-top: 90px;
+    }
+}
+
 .page3 {
     position: relative;
 }
