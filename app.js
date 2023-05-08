@@ -73,12 +73,35 @@ let tl3 = gsap.timeline({
 
 gsap.to(".projectletters", {
     scrollTrigger: {
-        trigger: ".page3",
+        trigger: ".page2",
+        start: "bottom 300",
 
     },
     y: "0%",
     duration: 0.5,
     stagger: 0.15,
+});
+
+gsap.to(".skillsContent", {
+    scrollTrigger: {
+        trigger: ".page2",
+        start: "bottom 250",
+
+    },
+    scale: 1,
+    opacity: 1,
+    duration: 0.5,
+});
+
+gsap.to(".skillscontent1", {
+    scrollTrigger: {
+        trigger: ".page2",
+        start: "bottom 200",
+
+    },
+    scale: 1,
+    opacity: 1,
+    duration: 0.5,
 });
 
 const myTags = [
