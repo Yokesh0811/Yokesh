@@ -240,7 +240,9 @@ html {
     font-size: 120px;
     font-family: 'Dancing Script', cursive;
     color: #64ffda;
-    margin-left: -20px;
+    margin-left: -40px;
+    margin-top: 90px;
+    z-index: 1;
 }
 
 .aboutmeContentbox {
@@ -278,14 +280,17 @@ html {
     }
 
     .aboutmeContainer p {
-        font-size: 90px;
-        margin: 25px 0px 0px -45px;
+        font-size: 85px;
+        margin: 90px 0px 0px -40px;
     }
 
     .welcomeHead {
         margin-top: -130px;
     }
-
+    
+    .aboutmeContentbox {
+        bottom: 0px;
+    }
 }
 
 @media(min-height : 1251px) {
