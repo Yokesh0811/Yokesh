@@ -252,6 +252,7 @@ html {
     color: #CBD5F5;
     font-family: 'Inconsolata', monospace;
     padding: 5px;
+    text-align: center;
 }
 
 .aboutmeContentbox p {
@@ -382,7 +383,7 @@ html {
 }
 
 .skillscontent1 {
-    width: 50%;
+    width: 55%;
     height: 400px;
     font-family: 'Inconsolata', monospace;
     padding: 5px;
@@ -398,7 +399,7 @@ html {
 }
 
 .skillsContent {
-    min-width: 50%;
+    min-width: 45%;
     height: 300px;
     display: flex;
     justify-content: center;
