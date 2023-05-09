@@ -120,3 +120,34 @@ var tagCloud = TagCloud('.skillsContent', myTags, {
     keep: true
 
 });
+
+gsap.to(".project01img", {
+    scrollTrigger: {
+        trigger: ".page3",
+        start: "bottom 200",
+
+    },
+    scale: 1,
+    opacity: 1,
+    duration: 0.5,
+});
+gsap.to(".project1content", {
+    scrollTrigger: {
+        trigger: ".page3",
+        start: "bottom 200",
+
+    },
+    scale: 1,
+    opacity: 1,
+    duration: 0.5,
+});
+gsap.to(".p4heading", {
+    scrollTrigger: {
+        trigger: ".page3",
+        start: "bottom 200",
+
+    },
+    x: 0,
+    opacity: 1,
+    duration: 0.5,
+});
