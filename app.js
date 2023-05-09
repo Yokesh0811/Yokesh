@@ -164,4 +164,8 @@ var swiper = new Swiper(".mySwiper", {
         modifier: 1,
         slideShadows: true,
     },
+    autoplay: {
+        delay: 1200,
+        disableOnInteraction: false,
+    },
 });
