@@ -517,7 +517,7 @@ html {
     align-items: center;
 }
 
-.project01img svg {
+.project01img img {
     width: 450px;
     height: 335px
 }
@@ -574,7 +574,7 @@ html {
 }
 
 @media(max-width : 851px) {
-    .project01img svg {
+    .project01img img {
         width: 350px;
         height: 235px;
     }
@@ -602,10 +602,6 @@ html {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
-
-
-
 
 .swiper {
     width: 100%;
