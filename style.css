@@ -494,6 +494,7 @@ html {
     background: -webkit-linear-gradient(90deg, #8360C3 0%, #64ffda 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    transform: translateX(-200%);
 }
 
 
@@ -514,6 +515,8 @@ html {
     min-width: 50%;
     display: grid;
     place-items: center;
+    scale: 0.1;
+    opacity: 0;
 }
 
 .project1content {
@@ -523,6 +526,8 @@ html {
     justify-content: space-around;
     align-items: left;
     flex-direction: column;
+    scale: 0.1;
+    opacity: 0;
 }
 
 .project1content p {
