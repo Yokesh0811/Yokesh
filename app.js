@@ -129,25 +129,25 @@ gsap.to(".project01img", {
     },
     scale: 1,
     opacity: 1,
-    duration: 0.5,
+    duration: 1,
 });
 gsap.to(".project1content", {
     scrollTrigger: {
         trigger: ".page3",
-        start: "bottom 200",
+        start: "bottom 150",
 
     },
     scale: 1,
     opacity: 1,
-    duration: 0.5,
+    duration: 1,
 });
 gsap.to(".p4heading", {
     scrollTrigger: {
         trigger: ".page3",
-        start: "bottom 200",
+        start: "bottom 150",
 
     },
     x: 0,
     opacity: 1,
-    duration: 0.5,
+    duration: 1,
 });
