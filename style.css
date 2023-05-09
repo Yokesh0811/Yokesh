@@ -593,3 +593,51 @@ html {
         width: 100%;
     }
 }
+.mftf {
+    text-align: center;
+    color: #CBD5F5;
+    font-family: 'Forum', cursive;
+    font-size: 3.8rem;
+    background: -webkit-linear-gradient(90deg, #8360C3 0%, #64ffda 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+
+
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.imgbox {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+}
+
+@media(max-width : 551px) {
+    .swiper-slide {
+        width: 200px;
+        height: 200px;
+    }
+}
