@@ -624,6 +624,8 @@ html {
     background-size: cover;
     width: 300px;
     height: 300px;
+    border-radius: 5px;
+    overflow: hidden;
 }
 
 .swiper-slide img {
