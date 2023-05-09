@@ -134,7 +134,7 @@ gsap.to(".project01img", {
 gsap.to(".project1content", {
     scrollTrigger: {
         trigger: ".page3",
-        start: "bottom 150",
+        start: "bottom 200",
 
     },
     scale: 1,
@@ -144,7 +144,7 @@ gsap.to(".project1content", {
 gsap.to(".p4heading", {
     scrollTrigger: {
         trigger: ".page3",
-        start: "bottom 150",
+        start: "bottom 300",
 
     },
     x: 0,
@@ -158,19 +158,10 @@ var swiper = new Swiper(".mySwiper", {
     centeredSlides: true,
     slidesPerView: "auto",
     coverflowEffect: {
-        rotate: 30,
+        rotate: 40,
         stretch: 0,
         depth: 150,
         modifier: 1,
         slideShadows: true,
-    },
-    loop: true,
-    navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-    },
-    autoplay: {
-        delay: 1000,
-        disableOnInteraction: false,
     },
 });
