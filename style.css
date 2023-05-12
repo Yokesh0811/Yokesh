@@ -531,7 +531,8 @@ html {
 
 .project01img img {
     width: 450px;
-    height: 335px
+    height: 335px;
+    margin-bottom: 20px;
 }
 
 .project01img {
