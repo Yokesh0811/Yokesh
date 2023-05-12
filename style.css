@@ -316,21 +316,15 @@ html {
     }
 }
 
-@media(max-height : 851px) and (max-width : 551px) {
-    .page2 {
-        height: 110vh;
-    }
-}
-
 @media(max-height : 751px) and (max-width : 551px) {
     .page2 {
         height: 120vh;
     }
 }
 
-@media(max-width : 1551px) and (max-height: 751px) {
-    .welcomeHead {
-        margin-top: 90px;
+@media(max-height : 900px) and (max-width : 451px) {
+    .page2 {
+        height: 95vh;
     }
 }
 
