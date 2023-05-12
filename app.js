@@ -124,7 +124,7 @@ var tagCloud = TagCloud('.skillsContent', myTags, {
 gsap.to(".project01img", {
     scrollTrigger: {
         trigger: ".page3",
-        start: "bottom 200",
+        start: "bottom 400",
 
     },
     scale: 1,
@@ -134,7 +134,7 @@ gsap.to(".project01img", {
 gsap.to(".project1content", {
     scrollTrigger: {
         trigger: ".page3",
-        start: "bottom 200",
+        start: "bottom 350",
 
     },
     scale: 1,
@@ -144,7 +144,7 @@ gsap.to(".project1content", {
 gsap.to(".p4heading", {
     scrollTrigger: {
         trigger: ".page3",
-        start: "bottom 300",
+        start: "bottom 350",
 
     },
     x: 0,
