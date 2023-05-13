@@ -58,7 +58,7 @@ let tl2 = gsap.timeline({
         scrub: 1,
     }
 })
-    .to(".page2wrapper", { width: "100%", height: "100%", duartion: 1 })
+    .to(".page2wrapper", { width: "100%", height: "100%", opacity: 1, duartion: 1 })
     .fromTo(".aboutmeContainer", { scale: "0.1" }, { scale: "1", duartion: 1 })
     .fromTo(".parara", { scale: "0.1", opacity: 0 }, { scale: "1", opacity: "1", duartion: 1 });
 
