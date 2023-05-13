@@ -201,6 +201,7 @@ html {
     position: relative;
     display: flex;
     justify-content: center;
+    opacity: 0;
 
 }
 
