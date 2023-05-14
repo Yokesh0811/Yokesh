@@ -677,3 +677,103 @@ html {
         height: 200px;
     }
 }
+.page6 {
+    width: 100%;
+    height: 60vh;
+    font-family: 'Forum', cursive;
+
+}
+
+.page6wrapper {
+    margin: 0 auto;
+    width: 80%;
+    height: 50vh;
+    border: 2px solid #64ffda;
+    display: grid;
+    place-items: center;
+    border-radius: 250px;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.mailbox {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    color: #CBD5F5;
+}
+
+.mailme {
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #8360C3;
+    color: #0A192F;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 8px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.mailme:hover {
+    scale: 1.08;
+}
+
+.mailme a {
+    width: 100px;
+    height: 40px;
+    color: #CBD5F5;
+    text-decoration: none;
+    cursor: pointer;
+    z-index: 20;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.takemeicons {
+    width: 200px;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.findmeonbox {
+    margin-top: 50px;
+}
+
+.takemeicons i {
+    font-size: 30px;
+    color: white;
+}
+
+.takemeicons a {
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+    z-index: 1000;
+    transition: 0.5s;
+}
+
+.takemeicons a:hover {
+    background: linear-gradient(180deg, #64ffda 0%, #8360C3 100%);
+}
+
+@media(max-width : 651px) {
+    .page6wrapper {
+        width: 95%;
+        border-radius: 0px;
+    }
+}
