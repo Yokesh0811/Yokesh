@@ -665,8 +665,12 @@ html {
 .swiper-slide img {
     display: block;
     width: 100%;
+    transition: 0.5s;
 }
-
+.swiper-slide img:hover {
+    transform: scale(1.03);
+    filter: blur(.5px);
+}
 @media(max-width : 551px) {
     .swiper-slide {
         width: 200px;
